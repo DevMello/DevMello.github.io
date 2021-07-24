@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Projects
 description: All my projects
+show_downloads: true
