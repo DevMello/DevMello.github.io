@@ -1,5 +1,5 @@
 // print some info
-console.log('source for this website is on https://github.com/amplitudesxd/amplitudes.me');
+console.log('source for this website is on https://github.com/devmello/devmello.cf');
 
 // array prototype extension
 Array.prototype.random = function() {
