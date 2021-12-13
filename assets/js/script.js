@@ -29,16 +29,15 @@ let songsPlayed = [];
 // define messages to display
 let messages = [
     'hey, thanks for stopping by!',
-    'i\'m amplitudes.',
-    'i develop c++, c#, node.js, java & go.',
+    'i\'m DevMello.',
+    'i develop html, css, node.js, java, c# & python.',
     'my projects include:',
-    '<a target="_blank" href="https://azurepvp.com">azurepvp.com</a> - a minecraft server striving to be the best.',
     '<a target="_blank" href="https://actova.ac">actova.ac</a> - the #1 minecraft screenshare tool.',
     '<a target="_blank" href="https://ppclicker.xyz">ppclicker.xyz</a> - the best minecraft autoclicker, for free.',
     '<a target="_blank" href="https://zarzul.com">zarzul.com</a> - enterprise ddos mitigation solutions.',
-    'you can find my github <a target="_blank" href="https://github.com/amplitudesxd">here</a>.',
-    'feel free to contact me via discord @ amplitudes.#0001.',
-    'you can also send me an email via hey@amplitudes.me.'
+    'you can find my github <a target="_blank" href="https://github.com/devmello">here</a>.',
+    'feel free to contact me via discord @ DevMello#0994.',
+    'you can also send me an email via dev@devmello.cf.'
 ];
 
 // define songs
