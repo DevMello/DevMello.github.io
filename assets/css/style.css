@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+
+* {
+    cursor: url('../img/cur.png'), auto;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+.intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro-text {
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.bg-image {
+    background-image: url('../img/background.gif');
+
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.canvas-audio {
+    width: 480px;
+    height: 480px;
+}
+
+.info {
+    z-index: 2;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+a {
+    color: #1d96f0;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+.cv-code {
+    content-visibility: auto;
+    border-radius: .5rem;
+    overflow: hidden;
+    background: #1f1e1e;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cv-code-header {
+    display: flex;
+    align-items: center;
+    background: #393d3e;
+    color: #eee;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: .5rem .5rem 0 0;
+    position: relative;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.cv-code-buttons {
+    margin-right: 10px;
+    display: flex;
+    gap: 6px;
+}
+
+.cv-code-buttons .fake-button[data-close] {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background: #f77669;
+}
+
+.cv-code-buttons .fake-button[data-minify] {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background: #ffcb6b;
+}
+
+.cv-code-buttons .fake-button[data-expand] {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background: #c3e88d;
+}
+
+.cv-code-title {
+    margin: 0 auto;
+    display: block;
+}
+
+.cv-code .content {
+    color: white;
+    padding: 10px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 0.8rem;
+}
+
+.cv-code .content .instruction {
+    display: block;
+    padding: 0 0 7px 0;
+}
+
+.cv-code .content .user {
+    color: #6db928;
+}
+
+.cv-code .content .path,
+.cv-code .content .command {
+    color: #6fa5cd;
+}
+
+.blinking-cursor {
+    color: #FFFFFF;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-moz-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-webkit-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-ms-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-o-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    margin: 5px;
+}
+
+.playingtext {
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+}
