@@ -1,123 +1,58 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="amplitudes.me" property="og:title" />
+    <meta content="amplitudes.#0001" property="og:description" />
+    <meta content="https://amplitudes.me" property="og:url" />
+    <meta content="amplitudes.#0001" name="description" />
+    <meta content="#b145bf" data-react-helmet="true" name="theme-color" />
+    <title>amplitudes.me | intro</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+    <script src="assets/js/circular-audio-wave.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
 
-[Link to another page](./another-page.html).
+<body>
+    <div id="intro" class="intro">
+        <div class="intro-text">
+            <h1>amplitudes.me</h1>
+            <h2><span id="entertext">press any key to enter</span> <span id="underscore">_</span></h2>
+        </div>
+    </div>
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+    <div id="bg-image" class="bg-image" style="display: none;"></div>
+    <audio id="audio" style="display: none;"></audio>
 
 
-### Definition lists can be used with HTML syntax.
+    <div id="info" class="info" style="display: none;">
+        <center>
+            <div id="canvas" class="canvas-audio" style="display: none;"></div>
+        </center>
+        <div class="cv-code" id="cv-code">
+            <div class="cv-code-header">
+                <div class="cv-code-buttons">
+                    <span class="fake-button --close" data-close="" onClick="visualizeAudio()"></span>
+                    <span class="fake-button --minify" data-minify=""></span>
+                    <span class="fake-button --expand" data-expand=""></span>
+                </div>
+                <span class="cv-code-title">amplitudes@127.0.0.1: ~</span>
+            </div>
+            <div class="content" id="contentinner">
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+            </div>
+        </div>
+    </div>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+    <div class="bottom">
+        <p class="playingtext" id="playingtext"></p>
+    </div>
+</body>
 
-```
-The final element.
-```
+</html>
