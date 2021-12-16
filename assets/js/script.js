@@ -33,7 +33,7 @@ let messages = [
     'i develop html, css, node.js, java, c# & python.',
     'my projects include:',
     '<a target="_blank" href="https://actova.ac">actova.ac</a> - the #1 minecraft screenshare tool.',
-    '<a target="_blank" href="https://ppclicker.xyz">ppclicker.xyz</a> - the best minecraft autoclicker, for free.',
+    '<a target="_blank" href="https://devmello.cf/Jello">DevJello</a> - the best remake of the original Jello client.',
     '<a target="_blank" href="https://zarzul.com">zarzul.com</a> - enterprise ddos mitigation solutions.',
     'you can find my github <a target="_blank" href="https://github.com/devmello">here</a>.',
     'feel free to contact me via discord @ DevMello#0994.',
