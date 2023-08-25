@@ -21,7 +21,7 @@ function openSocial(type) {
       url = 'https://linkedin.com/in/devmello';
       break;
     case 'resume':
-      url = 'https://devmello.github.io/assets/content/resume.pdf';
+      url = 'https://devmello.github.io/resume.html';
       break;
   }
 
